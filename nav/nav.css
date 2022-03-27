@@ -1,5 +1,100 @@
-.nav {
+html {
+	font-size: 25px;
+	font-family: "Quicksand", sans-serif;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.nav-menu__content, 
+.nav-menu__logo-and-nav,
+.nav-menu__social-media-and-button {
 	display: flex;
 	align-items: center;
 }
 
+.nav-menu__content {
+	justify-content: space-between;
+	padding: 0 3vw;
+}
+
+.nav-menu__logo-wrapper {
+	width: 2.2em;
+}
+
+.nav-menu__logo-image {
+	width: 100%;
+}
+
+.nav-list {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: .6rem;
+	margin-left: 2.3em;
+}
+
+.nav-list__nav-item {
+	margin: 1.5em;
+}
+
+.nav-list__nav-link {
+	text-decoration: none;
+	color: #697CA6;
+	font-size: 1em;
+	font-weight: 500;
+	letter-spacing: 0.05em;
+	text-transform: capitalize;
+}
+
+.nav-list__nav-link:hover {
+	color: #5E81FE;
+}
+
+.nav-list__nav-link_active {
+	color: #5E81FE;
+	font-weight: 700;
+}
+
+.social-media__social-media-list {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	padding: 0;
+	font-size: .5rem;
+	margin-right: 3em;
+}
+
+.social-media-list__social-media-item {
+	margin: 1.5em;
+}
+
+.social-media-list__social-media-link:hover {
+	opacity: .7;
+}
+
+.social-media-list__social-media-logo {
+	width: 3em;
+}
+
+.get-started-button {
+	padding: 1em;
+	font-size: .7rem;
+	color: #3A79FF;
+	font-weight: 700;
+	background-color: #D2E1FF;
+	border-radius: 3%;
+	border: none;
+	cursor: pointer;
+	font-family: inherit;
+	margin-left: 
+}
+
+.get-started-button:hover {
+	background-color: #c4d6fa;
+}
